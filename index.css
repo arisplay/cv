@@ -1,0 +1,383 @@
+#main_komert {
+    color: rgb(255, 0, 0);
+}
+
+#comment-list {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.comment.highlight {
+    background-color: #ffffcc;
+}
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.comment-form button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #4cae4c;
+}
+#main_komert {
+    color: rgb(0, 0, 0);
+}
+body {
+    background: linear-gradient(to bottom, #ff0000, #000000); /* Красный сверху, черный снизу */
+     /* или */
+    background: linear-gradient(to top, #ff0000, #000000); /* Черный сверху, красный снизу */
+    /* или */
+    background: linear-gradient(to right, #ff0000, #000000); /* Красный слева, черный справа */
+     /* или под углом */
+    background: linear-gradient(45deg, #ff0000, #000000); /* Градиент под углом 45 градусов */
+
+}
+.main_text {
+    color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+h4 {
+    color:rgb(255, 255, 255);
+}
+p {
+    color: rgb(255, 255, 255)
+}
+#main {
+    color: rgb(255, 255, 255);
+}
+.red-dark-square {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to bottom, #ff0000, #400000);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+     user-select: none;
+}
+.page-wrapper {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#comment-list {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.comment.highlight {
+    background-color: #ffffcc; /* Цвет подсветки */
+}
+
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.comment-form button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #4cae4c;
+}
+
+.page-wrapper {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#main_komert {
+    color: rgb(255, 0, 0);
+}
+
+#comment-list {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.comment.highlight {
+    background-color: #ffffcc; /* Цвет подсветки */
+}
+
+.comment.hidden {
+  display: none;
+}
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.comment-form button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #4cae4c;
+}
+.page-wrapper {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#main_komert {
+    color: rgb(255, 0, 0);
+}
+
+#comment-list {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.comment.highlight {
+    background-color: #ffffcc;
+}
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.comment-form button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #4cae4c;
+}
+.page-wrapper {
+    background: linear-gradient(to bottom, #ff0000, #000000); /* Красный сверху, черный снизу */
+     /* или */
+    background: linear-gradient(to top, #ff0000, #000000); /* Черный сверху, красный снизу */
+    /* или */
+    background: linear-gradient(to right, #ff0000, #000000); /* Красный слева, черный справа */
+     /* или под углом */
+    background: linear-gradient(45deg, #ff0000, #000000); /* Градиент под углом 45 градусов */
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: transparent; /* Убираем фон */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
+}
+
+.post-form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.post-form input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #660000;
+    border-radius: 4px;
+}
+
+.admin-post-list .post{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #650000;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.admin-delete-post-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-delete-post-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #640000;
+    border-radius: 4px;
+}
+
+.post {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #640000;
+    border-radius: 4px;
+}
+
+
+
+
+.login-wrapper {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin-panel {
+    max-width: 600px;
+    width: 100%;
+}
+
+.login-wrapper input {
+    padding: 10px;
+    border: 1px solid #820000;
+    border-radius: 4px;
+}
+
+.login-wrapper button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-wrapper button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.admin-delete-post-form {
+    display: none;
+}
+
+.admin-panel.active .admin-delete-post-form {
+    display: flex;
+}
